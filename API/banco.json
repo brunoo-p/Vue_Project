@@ -1,24 +1,62 @@
 {
+  "professores": [
+    {
+      "id": 1,
+      "nome": "Leda"
+    },
+    {
+      "id": 2,
+      "nome": "Roberto"
+    },
+    {
+      "id": 3,
+      "nome": "Márcia"
+    }
+  ],
   "alunos": [
     {
       "id": 1,
       "nome": "Bruno",
-      "sobrenome": "Paulino"
+      "sobrenome": "Paulino",
+      "dataNasc": "01/02/2003",
+      "contato": "(45) 91234-5678",
+      "professor": {
+        "id": 1,
+        "nome": "Leda"
+      }
     },
     {
       "id": 2,
       "nome": "João",
-      "sobrenome": "Sem Braço"
+      "sobrenome": "Sem Braço",
+      "dataNasc": "22/11/2008",
+      "contato": "(45) 92468-1012",
+      "professor": {
+        "id": 3,
+        "nome": "Márcia"
+      }
     },
     {
       "id": 3,
       "nome": "Maria",
-      "sobrenome": "Das Dores"
+      "sobrenome": "Das Dores",
+      "dataNasc": "21/07/2014",
+      "contato": "(45) 91101-1215",
+      "professor": {
+        "id": 2,
+        "nome": "Roberto"
+      }
     },
     {
-      "nome": "Zé Benedito",
-      "sobrenome": "",
-      "id": 4
+      "nome": "Zé",
+      "sobrenome": "Benedito",
+      "id": 4,
+      "dataNasc": "01/05/1993",
+      "contato": "(45) 98765-4321",
+      "professor": {
+        "id": 2,
+        "nome": "Roberto"
+      }
     }
   ]
 }
